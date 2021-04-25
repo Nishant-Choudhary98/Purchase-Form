@@ -1,0 +1,144 @@
+<html>
+<head>
+<style>
+body {
+background-image:url(Img_2.png);
+margin:0;
+padding:0;
+}
+form {
+padding:40px 30px 40px 30px;
+margin: 0px 0px 0px 0px;
+font-size:20px;
+color: white;
+font-weight:bold;
+background-image:url(BackgroundImg.gif);
+}
+h1 {
+color:pink;
+text-align:center;
+font-size:70px;
+font-family:aerial;
+font-weight:italic;
+font-weight:bold;
+}
+input {
+font-weight:italic;
+width:200px;
+height:25px;
+}
+button {
+width:200px;
+height:35px;
+font-weight:bold;
+font-size:15px;
+background-color:pink;
+margin-right:50px;
+float:right;
+}
+.x {
+font-weight:italic;
+font-family:perpetua;
+font-size:30px;
+margin-left:40px;
+}
+header {
+padding: 10px 10px 10px 10px;
+color:white;
+}
+footer {
+color:white;
+padding:20px 0px 70px 50px;
+font-size:35px;
+}
+nav {
+
+font-size:25px;
+}
+ul{
+margin:0;
+padding:0;
+background-color:#333;
+overflow:hidden;
+}
+li {
+float:left;
+border-right:1px solid #bbb;
+}
+a{
+color:pink;
+text-align:center;
+padding:14px 16px;
+display:block;
+width:120px;
+}
+li a:hover{
+background-color: #111;
+}
+</style>
+<title>Order Form</title>
+</head>
+<body>
+<header>
+<h1>Order Form</h1>
+<p class="x">Please fill in your information and we'll be sending your order in no time.</p>
+</header>
+<div>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">About Us</a></li>
+</ul>
+</nav>
+</div>
+<form>
+<label for="Name">Name</label>
+<input style="margin-left:96px" type="text" name="Name" placeholder="First" required />
+<input style="margin-left:10px" type="text" name="Name" placeholder="Last" required />
+<br/>
+<br/>
+<label for="E-mail">E-mail</label>
+<input style="margin-left:90px" type="text" name="E-mail" placeholder="Nishant123@example.com" required/>
+<br/>
+<br/>
+<label for="T-Shirt">Choose the T-Shirt of Your Choice!</label>
+<br/>
+<br/>
+<input type="radio" name="T-shirt" /><img src="t1.jpg" width=200px height=200px>
+<input type="radio" name="T-shirt" /><img src="t2.jpg" width=200px height=200px>
+<input type="radio" name="T-shirt" /><img src="t3.jpg" width=200px height=200px>
+<br/>
+<br/>
+<label for="Size">Size</label>
+<input style="margin-left:114px" type="text" name="Size" placeholder="S/L/XL/XXL/XXXL"/>
+<br/>
+<br/>
+<label for="Quantity">Quantity</label>
+<input style="margin-left:70px" type="text" name="Quantity" required />
+<br/>
+<br/>
+<label for="Delivery Date">Delivery Date</label>
+<input style="margin-left:30px" type="text" name="Delivery Date" placeholder="MM/DD/YYYY" required />
+<br/>
+<br/>
+<label for="Delivery Address">Delivery Address</label>
+<input style="width:415px" type="text" name="Delivery Address" placeholder="Street Address" required />
+<br/>
+<input style="margin-left:152px; width:415px;" type="text" name="Delivery Address" placeholder="Street Address Line 2" />
+<br/>
+<input style="margin-left:152px" type="text" name="Delivery Address" placeholder="City" required />
+<input style="margin-left:10px" type="text" name="Delivery Address" placeholder="Region" required />
+<br/>
+<input style="margin-left:152px" type="text" name="Delivery Address" placeholder="Postal/Zip Code" required />
+<input style="margin-left:10px" type="text" name="Delivery Address" value="India" />
+<button>Place the Order</button>
+</form>
+<footer>
+<h2>Contact Details:</h2>
+Nishant Choudhary<br/>
+2017164<br/>
+nishantprashantbsw@gmail.com
+</footer>
+</body>
+</html>
